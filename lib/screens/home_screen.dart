@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'details_screen.dart'; // Импортируем второй экран
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -40,23 +39,6 @@ class HomeScreen extends StatelessWidget {
                 subtitle: const Text('Белки: 120 г • Углеводы: 200 г'),
               ),
             ),
-            const SizedBox(height: 12),
-
-            // Кнопка для перехода на второй экран
-            Center(
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const DetailsScreen(),
-                    ),
-                  );
-                },
-                child: const Text('Перейти на экран деталей'),
-              ),
-            ),
-
             const Spacer(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
