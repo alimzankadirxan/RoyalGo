@@ -1,16 +1,6 @@
-# flutter_application_1
+# RoyalGo
 
-A new Flutter project.
+Разработчики: Кадырхан Алимжан Тенцер Роман
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Описание:  
+RoyalGo — веб-приложение на Flutter для отслеживания тренировок, питания и прогресса в зале. Приложение помогает ставить цели, отслеживать выполнение и видеть результаты в удобном интерфейсе.
